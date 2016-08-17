@@ -28,9 +28,9 @@ module.exports.connections = {
   * Installed by default.                                                    *
   *                                                                          *
   ***************************************************************************/
-  localDiskDb: {
-    adapter: 'sails-disk'
-  },
+  // localDiskDb: {
+  //   adapter: 'sails-disk'
+  // },
 
   /***************************************************************************
   *                                                                          *
@@ -88,5 +88,12 @@ module.exports.connections = {
   * More adapters: https://github.com/balderdashy/sails                      *
   *                                                                          *
   ***************************************************************************/
-
+    sailsMongoDBServer: {
+	adapter: 'sails-mongo',
+	host: 'localhost',
+	port: 27017,
+	database: 'MentalArithmeticDB'
+	// user: 'username',
+	// password: 'password'
+    }
 };
