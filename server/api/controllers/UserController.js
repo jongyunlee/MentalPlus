@@ -6,9 +6,6 @@
  */
 
 module.exports = {
-
-
-
     /**
      * `UserController.index()`
      */
@@ -28,9 +25,10 @@ module.exports = {
 	    name: params.name,
 	    password: params.password,
 	    email: params.email
-	}).exec(function createCB(err,created) {
-	    if (err) res.send(err);
-	    return res.json({ notice: 'Created user with name ' + created.name });
+	}).exec(function createCB(err,user) {
+	    if (err) return res.send(err);
+	    token = jwToken.issue({id: user.id});
+	    return res.json(200, {user: user, token: token});
 	});
     },
 

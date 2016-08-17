@@ -24,7 +24,8 @@ module.exports = {
 		if (err) res.send(err);
 		return res.send({
 		    message: info.message,
-		    user: user
+		    user: user,
+		    token: jwToken.issue({id: user.id})
 		});
 	    });
 	})(req, res);
