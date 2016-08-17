@@ -24,7 +24,12 @@ module.exports = {
      */
     create: function(req, res){
 	var params = req.params.all()
-	User.create({name: params.name}).exec(function createCB(err,created) {
+	User.create({
+	    name: params.name,
+	    password: params.password,
+	    email: params.email
+	}).exec(function createCB(err,created) {
+	    if (err) res.send(err);
 	    return res.json({ notice: 'Created user with name ' + created.name });
 	});
     },

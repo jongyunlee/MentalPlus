@@ -21,6 +21,7 @@ passport.use(new LocalStrategy({
 	if (!user) {
 	    return done(null, false, {message:'Incorrect email.'});
 	}
+	console.log('password : ' + password + ', user.password : ' + user.password);
 	bcrypt.compare(password, user.password, function(err, res) {
 	    if (!res) return done(null, false, {message: 'Invalid Password'});
 	    var returnUser = {
