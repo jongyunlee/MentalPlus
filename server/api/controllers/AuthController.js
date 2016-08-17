@@ -27,7 +27,7 @@ module.exports = {
 		    user: user
 		});
 	    });
-	})(req, res)
+	})(req, res);
     },
     logout: function(req, res) {
 	req.logout();
