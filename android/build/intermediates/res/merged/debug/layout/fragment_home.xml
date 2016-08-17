@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+  <Button
+      android:id="@+id/btn_login"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="15dip"
+      android:text="Login"/>
+</LinearLayout>
+<!-- From: file:/Users/jongyunlee/work/android/projects/MentalArithmetic/android/src/main/res/layout/fragment_home.xml -->
