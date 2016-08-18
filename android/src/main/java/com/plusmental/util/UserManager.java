@@ -9,9 +9,10 @@ import java.util.StringTokenizer;
 public class UserManager {
 
     public static final String KEY_SESSION_PREFERENCE = "keys2";
-    public static final String keys2SessionKey = "keys2SessionKey";
+    public static final String keys2Token = "keys2Token";
     public static final String keys2UserNickname = "keys2UserNickname";
     public static final String keys2UserId = "keys2UserId";
+    public static final String keys2UserEmail = "keys2UserEmail";
     public static final String keys2Title = "keys2Title";
     public static final String keys2ProfileImage = "keys2ProfileImage";
     public static final String keys2CoverImage = "keys2CoverImage";
@@ -31,8 +32,8 @@ public class UserManager {
 	return SecurityUtils.getMD5String(key);
     }
 
-    public static String getSessionKey(Context context) {
-	return getStringValue(context, keys2SessionKey);
+    public static String getToken(Context context) {
+	return getStringValue(context, keys2Token);
     }
 
     public static String getUserNickname(Context context) {
@@ -41,6 +42,10 @@ public class UserManager {
 
     public static String getUserId(Context context) {
 	return getStringValue(context, keys2UserId);
+    }
+
+    public static String getUserEmail(Context context) {
+	return getStringValue(context, keys2UserEmail);
     }
 
     public static String getTitle(Context context) {
@@ -87,8 +92,8 @@ public class UserManager {
 	return getBooleanValue(context, keys2FirstLogin);
     }
 
-    public static void setSessionKey(Context context, String sessionKey) {
-	saveStringValue(context, keys2SessionKey, sessionKey);
+    public static void setToken(Context context, String token) {
+	saveStringValue(context, keys2Token, token);
     }
 
     public static void setUserNickname(Context context, String nickname) {
@@ -97,6 +102,10 @@ public class UserManager {
 
     public static void setUserId(Context context, String name) {
 	saveStringValue(context, keys2UserId, name);
+    }
+
+    public static void setUserEmail(Context context, String name) {
+	saveStringValue(context, keys2UserEmail, name);
     }
 
     public static void setTitle(Context context, String name) {
@@ -144,7 +153,7 @@ public class UserManager {
     }
 
     public static boolean isLoggedIn(Context context) {
-	if (!TextUtils.isEmpty(getSessionKey(context))
+	if (!TextUtils.isEmpty(getToken(context))
 	    && !TextUtils.isEmpty(getUserId(context))) {
 	    return true;
 	}
@@ -153,15 +162,14 @@ public class UserManager {
 
     public static void logout(Context context) {
 	setUserId(context, "");
-	setSessionKey(context, "");
+	setToken(context, "");
     }
 
     public static String getAuthorizationHeaderValue(Context context) {
-	return "ApiKey " + getUserId(context) + ":" + getSessionKey(context);
+	return "Bearer " + getToken(context);
     }
 
     public static SharedPreferences getPrefs(Context context) {
-
 	return context.getSharedPreferences(KEY_SESSION_PREFERENCE, Context.MODE_PRIVATE);
     }
 

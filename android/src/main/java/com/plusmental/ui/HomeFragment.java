@@ -12,12 +12,11 @@ import android.widget.TextView;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import com.plusmental.R;
+import com.plusmental.util.UserManager;
 
 public class HomeFragment extends BaseFragment {
 
-    @InjectView(R.id.btn_login) Button mLoginButton;
-
-    private BaseActivity mActivity;
+    private HomeActivity mActivity;
 
     public static HomeFragment newInstance() {
 	HomeFragment f = new HomeFragment();
@@ -27,26 +26,22 @@ public class HomeFragment extends BaseFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-	mActivity = (BaseActivity) getActivity();
+	mActivity = (HomeActivity) getActivity();
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 	View v = inflater.inflate(R.layout.fragment_home, null);
 	ButterKnife.inject(this, v);
-	mLoginButton.setOnClickListener(onButtonsClick);
+	if (!UserManager.isLoggedIn(mActivity)) {
+	    mActivity.showLoginDialog();
+	} else {
+	    load();
+	}
 	return v;
     }
 
-    OnClickListener onButtonsClick = new OnClickListener() {
-	    @Override
-	    public void onClick(View v) {
-		switch(v.getId()) {
-		case R.id.btn_login:
-		    Intent intent = new Intent(mActivity, SignupActivity.class);
-		    startActivity(intent);
-		    break;
-		}
-	    }
-	};
+    public void load() {
+
+    }
 }

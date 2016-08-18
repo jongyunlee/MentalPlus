@@ -191,6 +191,7 @@ MERGED from [com.google.android.gms:play-services-base:7.5.0] /Users/jongyunlee/
 MERGED from [com.android.support:support-v4:22.2.0] /Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
 MERGED from [com.facebook.android:facebook-android-sdk:4.0.0] /Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/AndroidManifest.xml:28:5-20
 MERGED from [com.android.support:support-v4:22.2.0] /Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.balysv:material-ripple:1.0.2] /Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.balysv/material-ripple/1.0.2/AndroidManifest.xml:12:5-20
 MERGED from [com.kakao.sdk:kakaotalk:1.0.52] /Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.kakao.sdk/kakaotalk/1.0.52/AndroidManifest.xml:7:5-19
 MERGED from [com.kakao.sdk:login:1.0.52] /Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.kakao.sdk/login/1.0.52/AndroidManifest.xml:7:5-19
 MERGED from [com.kakao.sdk:util:1.0.52] /Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.kakao.sdk/util/1.0.52/AndroidManifest.xml:7:5-19
@@ -494,6 +495,7 @@ MERGED from [com.google.android.gms:play-services-base:7.5.0] /Users/jongyunlee/
 MERGED from [com.android.support:support-v4:22.2.0] /Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
 MERGED from [com.facebook.android:facebook-android-sdk:4.0.0] /Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:support-v4:22.2.0] /Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.balysv:material-ripple:1.0.2] /Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.balysv/material-ripple/1.0.2/AndroidManifest.xml:8:5-10:41
 MERGED from [com.kakao.sdk:kakaotalk:1.0.52] /Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.kakao.sdk/kakaotalk/1.0.52/AndroidManifest.xml:5:5-73
 MERGED from [com.kakao.sdk:login:1.0.52] /Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.kakao.sdk/login/1.0.52/AndroidManifest.xml:5:5-74
 MERGED from [com.kakao.sdk:util:1.0.52] /Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.kakao.sdk/util/1.0.52/AndroidManifest.xml:5:5-74

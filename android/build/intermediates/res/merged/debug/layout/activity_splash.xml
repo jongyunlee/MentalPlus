@@ -2,27 +2,22 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:background="@color/primary"
+    tools:context=".MainActivity"
     android:orientation="vertical">
-  <LinearLayout
+  <android.support.v7.widget.Toolbar
+      android:id="@+id/toolbar"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:gravity="center"
-      android:orientation="vertical">
-    <ImageView
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:scaleType="centerInside"
-	android:src="@drawable/ic_launcher"/>
-    <com.plusmental.widget.MatrialProgressWheel
-	android:id="@+id/progress_wheel"
-	android:layout_width="40dp"
-	android:layout_height="40dp"
-	app:barColor="#fff"
-	app:progressIndeterminate="true" />
-  </LinearLayout>
+      android:layout_height="?attr/actionBarSize"
+      android:background="@color/primary"
+      app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+      app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+      android:visibility="gone"/>
+  <FrameLayout
+      android:id="@+id/content_frame"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"/>
 </LinearLayout>
 <!-- From: file:/Users/jongyunlee/work/android/projects/MentalArithmetic/android/src/main/res/layout/activity_splash.xml -->

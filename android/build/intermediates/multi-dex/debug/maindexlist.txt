@@ -177,6 +177,7 @@ android/support/v4/app/FragmentManagerImpl$2.class
 com/fasterxml/jackson/databind/exc/UnrecognizedPropertyException.class
 com/fasterxml/jackson/annotation/JsonIgnoreType.class
 com/nostra13/universalimageloader/cache/disc/naming/FileNameGenerator.class
+com/plusmental/model/SignupObject.class
 com/fasterxml/jackson/annotation/JsonFormat.class
 com/google/android/gms/internal/zzha$zza.class
 com/facebook/internal/FacebookDialogFragment.class
@@ -215,7 +216,6 @@ com/google/android/gms/internal/zzfn.class
 com/fasterxml/jackson/databind/ser/std/NullSerializer.class
 android/support/v7/widget/ActionMenuView$LayoutParams.class
 com/fasterxml/jackson/databind/annotation/JsonDeserialize.class
-com/plusmental/ui/SplashActivity$2.class
 -keep class com.plusmental.util.BackgroundSoundService { <init>(); }
 com/plusmental/ui/SplashActivity.class
 android/support/annotation/CallSuper.class
@@ -232,7 +232,6 @@ com/facebook/login/LoginBehavior.class
 com/google/android/gms/maps/GoogleMap$OnMyLocationChangeListener.class
 com/fasterxml/jackson/annotation/JsonAnySetter.class
 com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWithSerializerProvider.class
-com/plusmental/ui/SplashActivity$3.class
 com/google/android/gms/internal/zzgk.class
 com/google/android/gms/analytics/internal/zzf.class
 com/google/android/gms/ads/internal/client/zzc.class
@@ -360,7 +359,6 @@ android/support/v4/widget/MaterialProgressDrawable$Ring.class
 android/support/v7/internal/view/menu/MenuItemImpl.class
 org/jboss/netty/channel/DefaultChannelFuture.class
 android/support/v4/app/SuperNotCalledException.class
-com/plusmental/task/SplashTask$SplashTaskListener.class
 retrofit/http/Path.class
 com/google/android/gms/internal/zzig.class
 retrofit/http/DELETE.class
@@ -397,6 +395,7 @@ com/facebook/R.class
 com/plusmental/task/SendAccessTokenTask$FbSendAccessTokenObjectTaskApi.class
 com/google/android/gms/internal/zzbq.class
 com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer$BoolKD.class
+com/plusmental/task/SignupTask$SignupObjectTaskApi.class
 org/jboss/netty/handler/codec/marshalling/CompatibleMarshallingEncoder.class
 com/google/android/gms/internal/zzii.class
 com/google/android/gms/internal/zzij.class
@@ -491,7 +490,6 @@ com/google/android/gms/internal/zzbv.class
 com/fasterxml/jackson/databind/JsonDeserializer.class
 android/support/v7/widget/RecyclerView$ViewHolder.class
 com/google/android/gms/ads/internal/request/zzb$zza.class
-com/plusmental/task/SplashTask.class
 android/support/v7/app/AppCompatDelegate.class
 android/support/v4/app/TaskStackBuilder$SupportParentable.class
 com/google/android/gms/internal/zzcl.class
@@ -554,6 +552,7 @@ com/google/android/gms/plus/Account.class
 com/fasterxml/jackson/databind/ser/std/StdContainerSerializers.class
 com/ning/http/client/Realm$RealmBuilder.class
 com/google/android/gms/analytics/internal/Command$1.class
+com/plusmental/model/LoginObject.class
 com/plusmental/model/SendAccessTokenParams.class
 com/fasterxml/jackson/databind/ser/std/NumberSerializers$LongSerializer.class
 com/google/android/gms/analytics/Logger.class
@@ -574,6 +573,7 @@ com/nostra13/universalimageloader/core/ImageLoaderConfiguration.class
 com/google/android/gms/analytics/internal/Command.class
 com/google/android/gms/games/snapshot/SnapshotMetadata.class
 com/plusmental/model/SplashParams.class
+com/plusmental/ui/LoginFragment.class
 com/fasterxml/jackson/databind/ser/std/SerializableSerializer.class
 org/jboss/netty/handler/codec/http/multipart/InternalAttribute.class
 com/facebook/CallbackManager.class
@@ -628,7 +628,6 @@ com/facebook/appevents/AppEventsLogger.class
 com/fasterxml/jackson/databind/deser/std/ObjectArrayDeserializer.class
 org/jboss/netty/handler/codec/http/websocket/DefaultWebSocketFrame.class
 com/google/android/gms/wallet/Address.class
-com/plusmental/ui/SplashActivity$1.class
 com/plusmental/ui/BaseDialogFragment$DialogClickListener.class
 org/jboss/netty/handler/codec/http/websocket/WebSocketFrameEncoder.class
 com/google/android/gms/internal/zzhb$zza.class
@@ -654,6 +653,7 @@ android/support/multidex/MultiDexApplication.class
 android/support/v4/app/FragmentManagerImpl$1.class
 com/fasterxml/jackson/databind/deser/BeanDeserializerBuilder.class
 com/google/android/gms/ads/internal/zzj.class
+com/plusmental/task/LoginTask$LoginObjectTaskApi.class
 com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer.class
 com/fasterxml/jackson/databind/ser/std/NumberSerializers$DoubleSerializer.class
 com/google/ads/mediation/MediationAdapter.class
@@ -674,6 +674,7 @@ com/google/android/gms/internal/zzoy.class
 com/fasterxml/jackson/databind/annotation/JsonValueInstantiator.class
 butterknife/InjectView.class
 com/google/android/gms/ads/internal/zze.class
+com/plusmental/model/LoginParams.class
 butterknife/OnCheckedChanged.class
 com/google/android/gms/internal/zzhh.class
 com/google/android/gms/analytics/ecommerce/ProductAction.class
@@ -738,13 +739,13 @@ android/support/v7/widget/StaggeredGridLayoutManager.class
 com/nostra13/universalimageloader/core/ImageLoader$1.class
 com/google/android/gms/internal/zzel.class
 com/kakao/MyStoryInfo$MyStoryImageInfo.class
+com/plusmental/ui/SignupFragment.class
 com/fasterxml/jackson/databind/MappingIterator.class
 android/support/v4/widget/CursorAdapter.class
 com/fasterxml/jackson/databind/jsontype/impl/TypeNameIdResolver.class
 com/fasterxml/jackson/databind/deser/std/StringArrayDeserializer.class
 com/google/android/gms/cast/CastMediaControlIntent.class
 com/google/android/gms/auth/GoogleAuthUtil.class
-com/plusmental/ui/SplashActivity$4.class
 com/google/android/gms/ads/internal/reward/mediation/client/RewardItemParcel.class
 com/google/android/gms/internal/zzcf.class
 android/support/v4/app/FragmentManagerImpl$4.class
@@ -802,6 +803,7 @@ com/fasterxml/jackson/databind/deser/std/NumberDeserializers$ByteDeserializer.cl
 org/jboss/netty/handler/ipfilter/IpFilterRuleHandler.class
 com/google/android/gms/wallet/MaskedWallet.class
 com/nostra13/universalimageloader/core/listener/ImageLoadingListener.class
+com/plusmental/model/SignupParams.class
 com/google/android/gms/internal/zzeb.class
 org/jboss/netty/handler/codec/serialization/CompatibleObjectDecoder.class
 com/google/android/gms/fitness/data/DataType.class
@@ -819,7 +821,6 @@ com/fasterxml/jackson/databind/ser/BasicSerializerFactory.class
 com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer.class
 android/support/v4/util/LogWriter.class
 android/support/multidex/MultiDex$V4.class
-com/plusmental/ui/LoginMainFragment.class
 com/google/android/gms/ads/internal/request/AdRequestInfoParcel$zza.class
 com/google/android/gms/internal/zzdh$zza.class
 butterknife/OnTextChanged.class
@@ -898,6 +899,7 @@ com/google/ads/mediation/MediationServerParameters.class
 com/google/android/gms/analytics/CampaignTrackingService$3.class
 com/google/android/gms/ads/internal/overlay/zzc.class
 android/support/v7/app/ActionBarDrawerToggle$DelegateProvider.class
+com/plusmental/ui/SplashFragment.class
 com/google/ads/mediation/customevent/CustomEventServerParameters.class
 com/fasterxml/jackson/databind/annotation/JsonSerialize$Inclusion.class
 com/google/android/gms/gcm/GoogleCloudMessaging.class

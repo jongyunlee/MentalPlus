@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MentalArithmetic</string>
+    <string name="app_name">TEST</string>
     <string name="kakao_app_key">00000000000000000000000000000000</string>
     <string name="facebook_app_id">0000000000000000</string>
 </resources>

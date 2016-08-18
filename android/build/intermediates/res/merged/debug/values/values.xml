@@ -119,8 +119,8 @@
     <!-- From: file:/Users/jongyunlee/work/android/projects/MentalArithmetic/android/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="point">#03c86a</color>
-    <color name="primary">#13bd88</color>
-    <color name="primary_dark">#00BFA5</color>
+    <color name="primary">#0089e3</color>
+    <color name="primary_dark">#0089e3</color>
     <!-- From: file:/Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
@@ -147,6 +147,9 @@
     <color name="text_gray_in_white">#aaaaaa</color>
     <color name="text_primary">#FFFFFFFF</color>
     <color name="text_title">@color/primary</color>
+    <!-- From: file:/Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.balysv/material-ripple/1.0.2/res/values/values.xml -->
+    <eat-comment/>
+    <color name="transparent">#00FFFFFF</color>
     <!-- From: file:/Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/res/values/wallet_colors.xml -->
     <eat-comment/>
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
@@ -182,6 +185,7 @@
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
     <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
     <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="liteMode"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/><attr format="boolean" name="uiMapToolbar"/></declare-styleable>
+    <declare-styleable name="MaterialRippleLayout"><attr format="color" localization="suggested" name="mrl_rippleColor"/><attr format="dimension" localization="suggested" name="mrl_rippleDimension"/><attr format="boolean" localization="suggested" name="mrl_rippleOverlay"/><attr format="float" localization="suggested" name="mrl_rippleAlpha"/><attr format="integer" localization="suggested" name="mrl_rippleDuration"/><attr format="integer" localization="suggested" name="mrl_rippleFadeDuration"/><attr format="boolean" localization="suggested" name="mrl_rippleHover"/><attr format="color" localization="suggested" name="mrl_rippleBackground"/><attr format="boolean" localization="suggested" name="mrl_rippleDelayClick"/><attr format="boolean" localization="suggested" name="mrl_ripplePersistent"/><attr format="boolean" localization="suggested" name="mrl_rippleInAdapter"/><attr format="dimension" localization="suggested" name="mrl_rippleRoundedCorners"/></declare-styleable>
     <declare-styleable name="MatrialProgressWheel"><attr format="boolean" name="progressIndeterminate"/><attr name="barColor"/><attr name="rimColor"/><attr name="rimWidth"/><attr name="spinSpeed"/><attr format="integer" name="barSpinCycleTime"/><attr format="dimension" name="circleRadius"/><attr format="boolean" name="fillRadius"/><attr name="barWidth"/><attr format="boolean" name="linearProgress"/></declare-styleable>
     <declare-styleable name="MediaRouteButton"><attr format="reference" name="externalRouteEnabledDrawable"/><attr name="android:minWidth"/><attr name="android:minHeight"/></declare-styleable>
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
@@ -368,7 +372,7 @@
     <string name="accept">Accept</string>
     <!-- From: file:/Users/jongyunlee/work/android/projects/MentalArithmetic/android/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="app_name">MentalArithmetic</string>
+    <string name="app_name">TEST</string>
     <!-- From: file:/Users/jongyunlee/work/android/projects/MentalArithmetic/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/res/values/auth_strings.xml -->
     <eat-comment/>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>

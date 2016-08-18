@@ -28,7 +28,12 @@ module.exports = {
 	}).exec(function createCB(err,user) {
 	    if (err) return res.send(err);
 	    token = jwToken.issue({id: user.id});
-	    return res.json(200, {user: user, token: token});
+	    return res.json(200, {
+		name: user.name,
+		email: user.email,
+		id: user.id,
+		token: token
+	    });
 	});
     },
 

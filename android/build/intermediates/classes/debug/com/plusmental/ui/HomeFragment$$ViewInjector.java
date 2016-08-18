@@ -8,8 +8,8 @@ import butterknife.ButterKnife.Injector;
 public class HomeFragment$$ViewInjector<T extends com.plusmental.ui.HomeFragment> implements Injector<T> {
   @Override public void inject(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131689600, "field 'mLoginButton'");
-    target.mLoginButton = finder.castView(view, 2131689600, "field 'mLoginButton'");
+    view = finder.findRequiredView(source, 2131689599, "field 'mLoginButton'");
+    target.mLoginButton = finder.castView(view, 2131689599, "field 'mLoginButton'");
   }
 
   @Override public void reset(T target) {
