@@ -8,18 +8,18 @@ import butterknife.ButterKnife.Injector;
 public class LoginFragment$$ViewInjector<T extends com.plusmental.ui.LoginFragment> implements Injector<T> {
   @Override public void inject(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131689599, "field 'rootView'");
-    target.rootView = finder.castView(view, 2131689599, "field 'rootView'");
-    view = finder.findRequiredView(source, 2131689603, "field 'mCancelButton'");
-    target.mCancelButton = finder.castView(view, 2131689603, "field 'mCancelButton'");
-    view = finder.findRequiredView(source, 2131689604, "field 'mSignupButton'");
-    target.mSignupButton = finder.castView(view, 2131689604, "field 'mSignupButton'");
-    view = finder.findRequiredView(source, 2131689605, "field 'mLoginButton'");
-    target.mLoginButton = finder.castView(view, 2131689605, "field 'mLoginButton'");
-    view = finder.findRequiredView(source, 2131689601, "field 'mEmailEdit'");
-    target.mEmailEdit = finder.castView(view, 2131689601, "field 'mEmailEdit'");
-    view = finder.findRequiredView(source, 2131689602, "field 'mPasswordEdit'");
-    target.mPasswordEdit = finder.castView(view, 2131689602, "field 'mPasswordEdit'");
+    view = finder.findRequiredView(source, 2131689606, "field 'rootView'");
+    target.rootView = finder.castView(view, 2131689606, "field 'rootView'");
+    view = finder.findRequiredView(source, 2131689610, "field 'mCancelButton'");
+    target.mCancelButton = finder.castView(view, 2131689610, "field 'mCancelButton'");
+    view = finder.findRequiredView(source, 2131689611, "field 'mSignupButton'");
+    target.mSignupButton = finder.castView(view, 2131689611, "field 'mSignupButton'");
+    view = finder.findRequiredView(source, 2131689612, "field 'mLoginButton'");
+    target.mLoginButton = finder.castView(view, 2131689612, "field 'mLoginButton'");
+    view = finder.findRequiredView(source, 2131689608, "field 'mEmailEdit'");
+    target.mEmailEdit = finder.castView(view, 2131689608, "field 'mEmailEdit'");
+    view = finder.findRequiredView(source, 2131689609, "field 'mPasswordEdit'");
+    target.mPasswordEdit = finder.castView(view, 2131689609, "field 'mPasswordEdit'");
   }
 
   @Override public void reset(T target) {

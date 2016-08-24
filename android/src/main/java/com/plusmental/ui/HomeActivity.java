@@ -3,8 +3,14 @@ package com.plusmental.ui;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import com.plusmental.ui.BaseDialogFragment.DialogClickListener;
+import com.plusmental.R;
 
 public class HomeActivity extends BaseFragmentActivity {
+
+    @Override
+    protected int getLayoutResources() {
+	return R.layout.activity_home;
+    }
 
     @Override
     public BaseFragment getFragment() {

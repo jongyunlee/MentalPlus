@@ -36,6 +36,10 @@
     <init>();
 }
 
+-keep class com.plusmental.ui.GameActivity {
+    <init>();
+}
+
 -keep class com.plusmental.ui.SplashActivity {
     <init>();
 }

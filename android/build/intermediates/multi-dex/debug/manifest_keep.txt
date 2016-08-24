@@ -7,6 +7,7 @@
 -keep class com.plusmental.ui.SignupFacebookActivity { <init>(); }
 -keep class com.plusmental.ui.SignupKakaoActivity { <init>(); }
 -keep class com.plusmental.ui.AgreeActivity { <init>(); }
+-keep class com.plusmental.ui.GameActivity { <init>(); }
 -keep class com.plusmental.ui.SplashActivity { <init>(); }
 -keep class com.facebook.FacebookActivity { <init>(); }
 -keep class com.facebook.FacebookContentProvider { <init>(); }

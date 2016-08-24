@@ -23,6 +23,17 @@ module.exports = {
 	    minLength: 6,
 	    required: true
 	},
+
+	hearts_count: {
+	    type: 'integer',
+	    defaultsTo: 10
+	},
+
+	xp: {
+	    type: 'integer',
+	    defaultsTo: 0
+	},
+
 	toJSON: function() {
 	    var obj = this.toObject();
 	    delete obj.password;

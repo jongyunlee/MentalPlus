@@ -49,7 +49,7 @@ module.exports.routes = {
      *                                                                          *
      ***************************************************************************/
 
-
+    // auth
     'get /login': {
 	view: 'login'
     },
@@ -66,5 +66,13 @@ module.exports.routes = {
 
     'get /signup': {
 	view: 'signup'
+    },
+
+    // home
+    'get /home': 'HomeController.index',
+
+    // game
+    'get /game': {
+	view: 'game'
     }
 };

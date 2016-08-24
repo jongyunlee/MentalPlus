@@ -18,6 +18,7 @@ android/support/annotation/IdRes.class
 com/google/ads/mediation/customevent/CustomEvent.class
 retrofit/http/POST.class
 com/google/ads/mediation/MediationBannerListener.class
+com/plusmental/model/HomeObject.class
 com/google/android/gms/ads/internal/zzl.class
 com/fasterxml/jackson/databind/introspect/BeanPropertyDefinition.class
 org/jboss/netty/handler/codec/http/websocket/WebSocketFrameDecoder.class
@@ -277,6 +278,7 @@ com/google/android/gms/ads/internal/purchase/zzk.class
 com/fasterxml/jackson/annotation/JsonPropertyDescription.class
 com/fasterxml/jackson/annotation/JsonBackReference.class
 org/jboss/netty/handler/codec/protobuf/ProtobufEncoder.class
+com/plusmental/task/HomeTask$HomeObjectTaskApi.class
 com/google/android/gms/internal/zzdd.class
 com/google/android/gms/ads/internal/client/zzk.class
 org/jboss/netty/handler/codec/http/websocketx/WebSocket00FrameEncoder.class
@@ -676,6 +678,7 @@ butterknife/InjectView.class
 com/google/android/gms/ads/internal/zze.class
 com/plusmental/model/LoginParams.class
 butterknife/OnCheckedChanged.class
+com/plusmental/ui/GameFragment.class
 com/google/android/gms/internal/zzhh.class
 com/google/android/gms/analytics/ecommerce/ProductAction.class
 com/kakao/helper/SystemInfo.class
@@ -780,6 +783,7 @@ com/google/android/gms/ads/internal/formats/zzc.class
 com/plusmental/ui/SignupKakaoActivity$SessionStatusCallback.class
 android/support/v7/internal/widget/TintTypedArray.class
 android/support/v4/app/FragmentTransaction.class
+-keep class com.plusmental.ui.GameActivity { <init>(); }
 android/support/v4/app/ActivityCompat.class
 com/nostra13/universalimageloader/core/ImageLoadingInfo.class
 com/google/android/gms/games/internal/experience/ExperienceEvent.class
@@ -941,6 +945,7 @@ android/support/annotation/IntRange.class
 com/google/android/gms/wallet/WalletConstants.class
 android/support/v4/app/NavUtils.class
 com/google/android/gms/analytics/CampaignTrackingReceiver.class
+com/plusmental/ui/GameActivity.class
 com/facebook/internal/NativeProtocol.class
 butterknife/OnLongClick.class
 android/support/annotation/WorkerThread.class
@@ -972,6 +977,7 @@ android/support/annotation/UiThread.class
 com/fasterxml/jackson/databind/deser/std/StdDeserializer.class
 -keep class com.plusmental.MyApplication {
 com/nostra13/universalimageloader/core/ImageLoader$SyncImageLoadingListener.class
+com/plusmental/model/Profile.class
 com/kakao/KakaoStoryCheckUser.class
 com/nostra13/universalimageloader/core/ProcessAndDisplayImageTask.class
 com/nostra13/universalimageloader/cache/memory/MemoryCache.class
